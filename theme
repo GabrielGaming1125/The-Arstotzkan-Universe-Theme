@@ -1,11 +1,9 @@
 /*
-
-Arstotzkan Universe Scorched Sundays
-[2021 WIkidot Theme]
-Created for The Arstotzkan Universe by Mr Jack 456
-
+    Arstotzkan Universe Scorched Sundays
+    [2021 Wikidot Theme]
+    Created for the Arstotzkan Universe by Sir Investigator
 */
-
+ 
 @charset "utf-8";
  
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
@@ -24,14 +22,14 @@ Created for The Arstotzkan Universe by Mr Jack 456
  
 --element-border-radius: 2px;
  
---primary-background: #1d2022;
+--primary-background: #248f8f;
 --secondary-background: rgba(0,0,0,0.15);
---background-3: #191b1d;
---background-4: #1f2125;
+--background-3: #248f8f;
+--background-4: #248f8f;
  
---content-bar-background: #24272a;
+--content-bar-background: #248f8f;
  
---primary-text-color: #3e6aa3;
+--primary-text-color: #29a3a3;
  
 --nav-hover-background: #2d4975;
  
@@ -40,24 +38,24 @@ Created for The Arstotzkan Universe by Mr Jack 456
 /* General Elements */
 --text-color: #000;
 --unmargined-color: var(--primary-text-color);
---horizontal-rule-background: var(--basic-border-color);
+--horizontal-rule-background: #000;
 --horizontal-rule-secondary-background: #000; /* color of horizontal rules when they are inside of content panels and stuff */
 --action-area-border: var(--dashed-border);
 --alert-info-border: var(--dashed-border);
 --owindow-border: var(--basic-border);
 --tags-border: var(--basic-border);
---error-color: #f54242; 
---content-box-shadow-color: #191919;
---content-box-shadow: 1px 1px 1px 1px var(--content-box-shadow-color);
---show-changes-del-background: rgba(255,123,123,0.47);
---show-changes-ins-background: rgba(140,255,129,0.47);
+--error-color: #f20d0d; 
+--content-box-shadow-color: #b3b3b3;
+--content-box-shadow: 1px 1px 1px 1px #000;
+--show-changes-del-background: rgb(179, 179, 179);
+--show-changes-ins-background: rgb(179, 179, 179);
  
 /* Body */
 --body-background: #fff;
  
 /* Footer */
---footer-background: var(--primary-background);
---footer-color: var(--text-color);
+--footer-background: #0f3d3d;
+--footer-color: #fff;
  
 /* Page Content */
 --page-background: none;
@@ -70,15 +68,15 @@ Created for The Arstotzkan Universe by Mr Jack 456
 --page-title-border: #000;
  
 /* Generic Buttons */
---button-border: 1px solid #2c3340;
+--button-border: 1px solid #248f8f;
 --button-background: #181d22;
---button-hover-border: 1px solid #27415c;
---button-hover-background: #27415c;
+--button-hover-border: 1px solid #248f8f;
+--button-hover-background: #248f8f;
 --button-hover-color: #fff;
---button-current-background: var(--primary-background);
+--button-current-background: #248f8f;
  
 /* Header Icon */
---header-icon: url(http://arstotzkanuniverse.wdfiles.com/local--files/this-universe/Arstotzkan-Universe_logo.png);
+--header-icon: url(http://arstotzkanuniverse.wdfiles.com/local--files/this-universe/Arstotzkan_Universe-logo_shadow_2-9-2022.png);
 --header-icon-adv: left 1.2em top 1rem no-repeat;
 --header-icon-size: auto calc(9.5rem - 2.125rem);
  
@@ -110,14 +108,14 @@ Created for The Arstotzkan Universe by Mr Jack 456
 --header-mobile-tagline-font-size: 75%;
  
 /* Search Bar */
---search-button-background: #003366;
---search-button-border: 3px solid #fff;
+--search-button-background: #364E4D;
+--search-button-border: 2px solid #fff;
 --search-button-hover-background: #364E4D;
---search-button-hover-border: 1px solid #fff;
---search-input-hover-border: 1px solid #fff;
+--search-button-hover-border: 2px solid #fff;
+--search-input-hover-border: 2px solid #fff;
 --search-input-hover-color: #fff;
 --search-input-color: #003366;
---search-input-hover: #2d3668;
+--search-input-hover: #003366;
 --search-input-border: 2px solid #fff;
  
 /* Sidebar */
@@ -133,32 +131,32 @@ Created for The Arstotzkan Universe by Mr Jack 456
 --sidebar-crit-corner-color: #b5d6ff;
  
 /* Topbar */
---topbar-text-color: #aaa;
---topbar-dropdown-background: var(--body-background);
---topbar-hover-background: var(--nav-hover-background);
---topbar-divider: 1px solid var(--topbar-hover-background);
---topbar-dropdown-border-color: var(--basic-border-color);
+--topbar-text-color: #fff;
+--topbar-dropdown-background: #4A4A4A;
+--topbar-hover-background: #4A4A4A;
+--topbar-divider: 1px solid #4A4A4A;
+--topbar-dropdown-border-color: #4A4A4A;
 --topbar-hover-color: #fff;
---topbar-dropdown-color: var(--text-color);
+--topbar-dropdown-color: #fff;
  
 /* Link Colors */
---link-color: #5295e1;
---link-hover-color: #84b7f5;
---new-page-color: #626eb2;
+--link-color: #f20d0d;;
+--link-hover-color: #661a00;
+--new-page-color: #ff8c66;
 --external-graphic-color: var(--star-rating-hue);
  
 /* Wikidot Tables */
 --table-header-background: var(--content-bar-background);
 --table-header-background-alt: var(--background-3);
---table-header-color: var(--text-color);
---table-cell-color: var(--text-color);
+--table-header-color: #000;
+--table-cell-color: #000;
 --table-cell-background: var(--primary-background);
---table-border: 1px solid #333;
+--table-border: 1px solid #000;
 --table-box-shadow: var(--content-box-shadow);
  
 /* Footnotes */
---footnote-border: var(--basic-border);
---footnote-background: var(--primary-background);
+--footnote-border: #1b5598;
+--footnote-background: #1b5598;
  
 /* Table of Contents */
 --toc-border: none;
@@ -181,7 +179,7 @@ Created for The Arstotzkan Universe by Mr Jack 456
 --blockquote-background: #ccc;
 --blockquote-border: #000;
 --blockquote-border-radius: #000;
---blockquote-padding: 1px 1px;
+--blockquote-padding: 0 1em;
 --blockquote-box-shadow: none;
  
 /* Image Blocks */
@@ -206,8 +204,8 @@ Created for The Arstotzkan Universe by Mr Jack 456
 --nested-star-rating-border: 1px solid var(--star-rating-cell-background);
  
 /* Text Inputs */
---text-box-form-background: #181d22;
---text-box-form-border: 1px solid #2c3340;
+--text-box-form-background: #364E4D;
+--text-box-form-border: 1px solid #000;
  
 /* Forum Threads */
 --forum-thread-background: rgba(0,0,0,0.21);
@@ -357,20 +355,20 @@ li, p {
  
 /* Horizontal Rules */
 hr {
-    background: var(--horizontal-rule-background);
+    background: #000;
     Margin: 1em 0;
 }
  
 /* Links */
 a {
-    color: var(--link-color);
+    color: #cc3300;
     text-decoration: none;
     background: transparent;
     transition: color 0.5s ease;
 }
  
 a.newpage {
-    color: var(--new-page-color);
+    color: #ff8c66;
     text-decoration: none;
     background: transparent;
 }
@@ -378,7 +376,7 @@ a.newpage {
 a:hover {
     text-decoration: underline;
     background-color: transparent;
-    color: var(--link-hover-color);
+    color: #661a00;
 }
  
 a::after {
@@ -656,26 +654,26 @@ div#container-wrap {
     font-weight: 85%;
 }
  
- /*Tabs*/
+ /* Tabs color*/
 --selected-tab: #007a99;
 --hover-tab: #fff;
 --inactive-tab: #007a99;
  
-/*SETTINGS HORIZONTAL LINE*/
+/* Tabs designs */
 .yui-navset .yui-nav,
 .yui-navset .yui-navset-top .yui-nav {
-    border:solid #000; /* color of the horizontal line between tab list and selected content */
-    border-width:0 0 5px; /*thickness of the horizontal line between tab list and content */
+    border:solid #000;
+    border-width:0 0 5px;
 }
 .yui-navset .yui-nav li,
 .yui-navset .yui-navset-top .yui-nav li {
-    margin:0 2px 0 0; /* space between tabs */
+    margin:0 2px 0 0;
 }
 .yui-navset .yui-nav .selected,
 .yui-navset .yui-navset-top .yui-nav .selected {
-    margin:0 1px -1px 0; /* for overlap */
+    margin:0 1px -1px 0;
 }
-/* SETTINGS FOR UNSELECTED TABS */
+ 
 .yui-navset .yui-nav a,
 .yui-navset .yui-navset-top .yui-nav a {
     background:#007a99 url(http://themes.wikidot.com/local--files/rainbow-base/tabcolor.png) repeat-x -3px;
@@ -692,13 +690,11 @@ div#container-wrap {
     border:solid #000 0px;
 }
  
-/*HOVER SETTINGS FOR UNSELECTED TABS*/
 .yui-navset .yui-nav a:hover,
 .yui-navset .yui-navset-top .yui-nav a:hover {
     background:#007a99
 }
  
-/* SETTINGS FOR SELECTED TABS */
 .yui-navset .yui-nav .selected a,
 .yui-navset .yui-nav .selected a:focus,
 .yui-navset .yui-nav .selected a:hover {
@@ -706,26 +702,25 @@ div#container-wrap {
     color:#000;border:1px solid #000;font-weight:600
 }
  
-/* SETTINGS FOR SELECTED CONTENT */
 .yui-navset .yui-content {
-    background-color: #fff; /* content background color */
+    background-color: #fff;
 }
  
 .yui-navset .yui-content,
 .yui-navset .yui-navset-top .yui-content {
     border-color: #000; /* content border */
-    border-top-color:#000; /* different border color */
+    border-top-color:#000;
 }
  
 .yui-navset-left .yui-content {
-    border-color: #000; /* content border */
-    border-left-color: #000; /* different border color */
+    border-color: #000;
+    border-left-color: #000;
 }
  
 .yui-navset-bottom .yui-content,
 .yui-navset .yui-navset-bottom .yui-content {
     border-color: #000; /* content border */
-    border-bottom-color: #000; /* different border color */
+    border-bottom-color: #000;
 }
  
 /*---BUTTON RECOLORING---*/
@@ -787,12 +782,24 @@ div#container-wrap {
 }
  
 .content-panel {
-    border-radius: var(--content-panel-border-radius);
-    background: var(--content-panel-background);
-    border: var(--content-panel-border);
-    padding: var(--content-panel-padding);
-    margin: 10px 20px 15px 20px;
-    box-shadow: var(--content-panel-box-shadow);
+    border: 5px solid #002233; 
+border-radius: 3px; 
+background: #005580; 
+margin-top: 3px; 
+color: #000; 
+padding-bottom:3px; 
+padding: 3px; 
+width: 98%;
+width: 98%;
+margin: 0 auto 2em;
+  }
+}
+@media ( mi1n-width: 479px) {
+.content-panel {
+width: auto;
+margin: 0 0.5em 2em;
+ 
+  }
 }
  
 .content-panel.centered {
@@ -1195,6 +1202,12 @@ blockquote {
  
 .image-block img, .image-block, .image-caption {
     max-width: 100%;
+}
+ 
+/* Wikiwalk Navigation...thing. */
+.footer-wikiwalk-nav {
+    font-style: bold;
+    font-size: 75%;
 }
  
 /* Sidenotes */
@@ -1625,7 +1638,7 @@ img[src$="/common--images/jquery-raty/star-off.png"] {
 .owindow .button-bar .btn {
     border: var(--button-border)!important;  
     background: var(--button-background)!important;
-    color: var(--text-color);    
+    color: #fff;    
 }
  
 #h-perpage:hover,
@@ -2636,24 +2649,175 @@ Margin: 5px 0px;
 }
  
 }
- 
-div.scpnet-interwiki-wrapper {
-    width: 17em;
-    margin-left: -5px;
+/* Custom page content classes */
+#page-content {
+    min-height: 720px;
 }
  
-iframe.scpnet-interwiki-frame {
-    height: 325px;
-    width: 17em;
-    border: none;
+.unmargined > p {
+    margin: 0;
+    line-height: 100%;
 }
  
-@media (min-width: 768px) {
-    iframe.scpnet-interwiki-frame {
-        height: 325px;
-        width: 18em;
-    }
-    div.scpnet-interwiki-wrapper {
-        width: 18em;
-    }
+.content-panel {
+    border: solid 1px #888880;
+    border-radius: 10px;
+    background-color: #999990;
+    margin: 10px 0 15px;
+    box-shadow: 3px 3px 6px #bbb;
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, .5),
+        inset 0 1px rgba(255, 255, 255, .3),
+        inset 0 10px rgba(255, 255, 255, .2),
+        inset 0 10px 20px rgba(255, 255, 255, .25),
+        inset 0 -15px 30px rgba(0, 0, 0, .1);
+}
+ 
+.content-panel.standalone {
+    background: #fcfdfb;
+}
+ 
+.content-panel.series {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+ 
+.content-panel.centered {
+    text-align: center;
+}
+ 
+.content-panel.left-column {
+    float: left;
+    width: 48%;
+}
+ 
+.content-panel.right-column {
+    float: right;
+    width: 48%;
+}
+ 
+.content-panel .panel-heading {
+    padding: 2px 10px;
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .35);
+}
+ 
+.content-panel .panel-heading > p,
+.content-panel .panel-footer > p {
+    margin: 0;
+}
+ 
+.content-panel .panel-body {
+    padding: 5px 10px;
+    background: #fff9f0 url('https://scp-wiki.wdfiles.com/local--files/component:theme/panel-bg-gradient-reverse.png') bottom repeat-x;
+}
+ 
+.content-panel .panel-footer {
+    padding: 1px 10px;
+    color: #fffff0;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+ 
+.content-panel .panel-footer a {
+    color: #fff;
+}
+ 
+.content-panel .content-toc {
+    float: right;
+    padding: 0 20px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    margin: 20px 0 5px 5px;
+    white-space: nowrap;
+    box-shadow: inset 1px 2px 6px rgba(0, 0, 0, .15);
+}
+ 
+.alternate:nth-child(even) {
+    background-color: rgba(255, 255, 255, .9);
+}
+ 
+#side-bar .collapsible-block-link {
+    margin-left: 0;
+    font-weight: bold;
+}
+ 
+#side-bar .collapsible-block-unfolded-link {
+    border-bottom: solid 1px #600;
+}
+ 
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    font-size: 8pt;
+    color: #600;
+}
+ 
+#side-bar .collapsible-block-unfolded-link .collapsible-block-link:hover {
+    color: #b01;
+    text-decoration: none;
+}
+ 
+#side-bar ul {
+    list-style-type: none;
+    padding: 0 5px;
+}
+ 
+/* Content Warning for adult content */
+div#u-adult-warning {
+    width: fit-content;
+    margin: 0 auto 20px;
+    padding: .5rem 1rem;
+    border: 3px solid #333;
+    background: #e4e4e4;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+div#u-adult-warning > div#u-adult-header {
+    font-size: 300%;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+    color: #901;
+}
+ 
+div#u-adult-warning > div#u-adult-header p {
+    margin: 0;
+}
+ 
+div#u-adult-warning > .error-block {
+    color: unset;
+    padding: unset;
+    margin: unset;
+    border: unset;
+    margin-bottom: 1em;
+}
+ 
+/* Wikiwalk Navigation */
+.footer-wikiwalk-nav {
+    font-weight: bold;
+    font-size: 75%;
+}
+ 
+/* Licensebox */
+.licensebox .collapsible-block-link {
+    margin-left: .25em;
+    padding: .25em;
+    font-weight: bold;
+    opacity: .5;
+    color: inherit;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+ 
+.licensebox .collapsible-block-link:hover,
+.licensebox .collapsible-block-link:active {
+    opacity: 1;
 }
